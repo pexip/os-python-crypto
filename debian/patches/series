@@ -1,0 +1,3 @@
+dont-drop-g.patch
+fix-unresolved-reference-size.patch
+CVE-2012-2417.patch
