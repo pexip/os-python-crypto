@@ -1,3 +1,9 @@
+python-crypto (2.4.1-1ubuntu0.1pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Wed, 25 Dec 2013 02:31:38 +0000
+
 python-crypto (2.4.1-1ubuntu0.1) precise-security; urgency=low
 
   * SECURITY UPDATE: incorrect ElGamal key generation
