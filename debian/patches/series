@@ -1,3 +1,12 @@
 dont-drop-g.patch
 fix-unresolved-reference-size.patch
-CVE-2012-2417.patch
+fix-epydoc-ignore.patch
+fix-cipher-iv-documentation.patch
+reenable-redefined-tests.patch
+fix-py3-errors.patch
+fix-except-shadows-builtin.patch
+multiprocessing-test.patch
+unittest-stream.patch
+deprecated-test-methods.patch
+asn1-decoding.patch
+CVE-2013-7459.patch
