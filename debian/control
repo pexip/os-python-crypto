@@ -16,7 +16,7 @@ Vcs-Svn: svn://svn.debian.org/svn/python-modules/packages/python-crypto/trunk/
 Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-crypto/trunk/
 Homepage: http://www.pycrypto.org/
 DM-Upload-Allowed: yes
-XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: python-crypto
 Architecture: any
