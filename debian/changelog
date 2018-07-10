@@ -1,3 +1,9 @@
+python-crypto (2.6.1-7pexip1) pexip; urgency=medium
+
+  * Migrate to Stretch
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 10 Jul 2018 11:41:45 +0000
+
 python-crypto (2.6.1-7) unstable; urgency=high
 
   [ Salvatore Bonaccorso ]
