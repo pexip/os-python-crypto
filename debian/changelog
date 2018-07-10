@@ -1,17 +1,35 @@
+python-crypto (2.6.1-7) unstable; urgency=high
+
+  [ Salvatore Bonaccorso ]
+  * Throw exception when IV is used with ECB or CTR (CVE-2013-7459)
+    (Closes: #849495)
+
+  [ Sebastian Ramacher ]
+  * debian/control:
+    - Bump Standards-Version.
+    - Update Vcs-Git
+  * debian/rules: Remove dh_strip override for automatic dbgsym packages.
+  * debian/{control,compat}: Bump debhelper compat to 10.
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 28 Dec 2016 11:45:21 +0100
+
+python-crypto (2.6.1-6) unstable; urgency=medium
+
+  * debian/control:
+    - Bump Standards-Version.
+    - Remove XS-Testsuite, no longer needed.
+    - Remove obsolete Breaks+Replaces
+    - Move to collab-maint.
+  * debian/rules: Do not run tests if only building arch all packages. (Closes:
+    #806866)
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sun, 06 Dec 2015 15:03:15 +0100
+
 python-crypto (2.6.1-5+deb8u1pexip1) pexip; urgency=low
 
   * Migrate to Jessie
 
  -- John-Mark Bell <jmb@pexip.com>  Thu, 23 Mar 2017 20:50:12 +0000
-
-python-crypto (2.6.1-5+deb8u1) jessie; urgency=high
-
-  * debian/patches/CVE-2013-7459.patch: Raise a warning when IV is used with
-    ECB or CTR and ignored the IV in that case. Thanks to Salvatore Bonaccorso
-    for the initial patch. (CVE-2013-7459) (Closes:
-    #849495)
-
- -- Sebastian Ramacher <sramacher@debian.org>  Tue, 03 Jan 2017 13:56:09 +0100
 
 python-crypto (2.6.1-5) unstable; urgency=medium
 
