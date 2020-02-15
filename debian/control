@@ -21,7 +21,7 @@ Standards-Version: 3.9.8
 Vcs-Git: https://anonscm.debian.org/git/collab-maint/python-crypto.git
 Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/python-crypto.git
 Homepage: http://www.pycrypto.org/
-XS-Pexip-Upstream: http://ftp.debian.org/debian/ stretch
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ buster
 
 Package: python-crypto
 Architecture: any
